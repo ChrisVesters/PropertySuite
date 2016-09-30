@@ -10,7 +10,7 @@ com.util.TestCaseB.testb = included
 
 Support for two wildcards is provided: '\*' and '?' which match any sequence of characters and exactly one character respectively.
 It is however still required to write the full path of the test. Example: <br />
-*.*.TestCaseA.testa = excluded
+\*.\*.TestCaseA.testa = excluded
 
 It is possible to write general rules as well. Example: <br />
 com.util = excluded <br />
