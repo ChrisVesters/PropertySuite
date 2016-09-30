@@ -4,16 +4,16 @@ The PropertySuite allows a user to filter the tests that are run. This is done b
 The local.testfilter.properties precedes over the testfilter.properties, if such a file exists, the testfilter.properties is ignored.
 
 By default all tests run.
-Rules specify the tests by their fully qualified name. Example:
-com.util.TestCaseA.testa = excluded
+Rules specify the tests by their fully qualified name. Example: <br />
+com.util.TestCaseA.testa = excluded <br />
 com.util.TestCaseB.testb = included
 
 Support for two wildcards is provided: '\*' and '?' which match any sequence of characters and exactly one character respectively.
-It is however still required to write the full path of the test. Example:
+It is however still required to write the full path of the test. Example: <br />
 *.*.TestCaseA.testa = excluded
 
-It is possible to write general rules as well. Example:
-com.util = excluded
+It is possible to write general rules as well. Example: <br />
+com.util = excluded <br />
 com.util.TestCaseA = included
 
 For a rule to match all subparts of the rule match with a subpart of the test in the same order.
